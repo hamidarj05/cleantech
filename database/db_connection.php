@@ -1,9 +1,9 @@
 <?php 
 try {
-        $dbhost = 'localhost';
-        $dbname='cleanmaroc_db';
-        $dbuser = 'root';
-        $dbpass = 'hamid';
+        $dbhost = 'sql311.infinityfree.com';
+        $dbname='if0_39257603_cleanmaroc';
+        $dbuser = 'if0_39257603';
+        $dbpass = 'Pm7qSS5ptxHZc';
         $conn = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
     }
    catch (PDOException $e) {
